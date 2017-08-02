@@ -1,0 +1,39 @@
+.module_right{
+    width: 100%;
+    height: auto;
+    /*background: #eeeeee;*/
+
+}
+.inner_module_right{
+    width: 100%;
+    height: auto;
+    margin: 0 1%;
+    border-left: solid 1px #b6b6b6;
+
+}
+.myMap iframe{
+    width: 386px;
+    height: 300px;
+    border: 0;
+    margin: 1%;
+}
+
+.event_noibat{
+    margin: 1%;
+}
+._pro_noibat{
+    border: solid 1px chocolate;
+}
+.inner_pro_noibat{
+    margin: 1%;
+}
+
+
+.tieude{
+    background: #0066cc;
+    color: white;
+    padding: 1% 4%;
+    width: 91%;
+    margin: 1%;
+
+}

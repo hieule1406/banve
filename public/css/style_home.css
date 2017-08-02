@@ -1,0 +1,246 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wap{
+    width: 100%;
+    height: auto;
+}
+.inner{
+    width: 90%;
+    height: auto;
+    margin: 1px 5%;
+
+}
+.wap .fom_img{
+    width: 100%;
+    height:auto;
+    /*margin: 1%;*/
+    /*margin: 2%;*/
+}
+
+.inner div{
+    float: left;
+    position: relative;
+}
+
+/*the bao  ul*/
+.fom_img{
+    /*border: solid 1px #a5a5a5;*/
+    padding-bottom: 1%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+ /*the bao ngoai cung san pham*/
+._product{
+    /*border: solid red;*/
+    width: 36%;
+    margin: 1%;
+}
+._boder_bottom{
+    border-top: solid 1px rebeccapurple;
+    padding: 5px 0;
+    font-size: 12px;
+
+}
+._boder_bottom a{
+    background: #004386;
+    padding: 6px 10px;
+    color: #eeeeee;
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+    margin-right: 3%;
+
+}
+._boder_bottom a:hover{
+    /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);*/
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: #ffffff;
+    background: #007ef8;
+}
+._boder_bottom i{
+    padding-left: 5%;
+}
+
+.fom_img .text_ss {
+    font-size: 16px;
+    margin: 1% 5%;
+
+}
+/*text*/
+.text_ss a{
+    color: #2d2d2d;
+}
+.t_1 a{
+    cursor: default;
+}
+.txt_s li i{
+    margin-right: 1%;
+}
+.dat_ve a{
+    background: #005dac;
+    padding: 2% 4%;
+    color: #cfcfcf;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.text_boder_hide a{
+    font-weight: bold;
+    background: #933009;
+    padding: 6px 10px;
+    color: #eeeeee;
+    /*border-radius: 5px;*/
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+    margin-right: 3%;
+    font-size: 12px;
+}
+.text_boder a{
+    font-weight: bold;
+    background: #b17104;
+    padding: 6px 10px;
+    color: #eeeeee;
+    /*border-radius: 5px;*/
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+    margin-right: 3%;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+.text_boder a:hover{
+    color: #ffffff;
+    background: #f69900;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.text_boder {
+    padding: 2% 0;
+
+}
+
+.text_boder_hide{
+    padding: 2% 0;
+}
+.dat_ve{
+    padding:5%;
+}
+
+
+.dat_ve a:hover{
+    background: #008ff3;
+    color: #ffffff;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+/*tieu de in đam*/
+
+.dam a{
+    font-weight: bold;
+    color: #303b46;
+}
+.dam a:hover{
+    color: #007fff;
+}
+
+.chi_tiet{
+    padding: 1% 2%;
+
+}
+/*----------------------------------*/
+
+
+
+/*Giaodien mobile*/
+
+@media screen and (max-width:1024px){
+    .img{
+        margin: 0;
+        width:100%;
+        height: 400px;
+    }
+    .img:hover{
+
+    }
+    ._boder_bottom{
+        font-size: 13px;
+    }
+     /*div class _product*/
+    ._product{
+
+        /*border: solid red;*/
+        width: 96%;
+        margin: 2% 2%;
+    }
+    .wap .fom_img .text_ss {
+        font-size: 18px;
+        margin: 1% 5%;
+
+    }
+    .fom_img{
+        width: 800px;
+        height:auto;
+        margin: 0;
+        border: solid 1px rebeccapurple;
+    }
+    /*i{*/
+        /*margin-right: 2px;*/
+    /*}*/
+
+    .dat_ve{
+        padding: 3% 5%;
+    }
+
+
+    .inner{
+        width: 90%;
+        height: auto;
+        margin: 1% 5%;
+        /*border: solid 1px black;*/
+    }
+}
+
+
+
+@media screen and (max-width:768px){
+    .img{
+        margin: 0;
+        width:100%;
+        height: auto;
+
+    }
+
+    ._product{
+
+        /*border: solid red;*/
+        width: 88%;
+        margin: 2% 5%;
+    }
+}
+
+
+/*giao dien laptop*/
+@media screen and (width:1366px){
+    .img{
+        margin: 0;
+        width:100%;
+        height:200px
+
+    }
+    ._product{
+        border: solid 1px black;
+    }
+    .wap .fom_img{
+        /*width: 500px;*/
+        height:auto;
+        margin: 0;
+
+    }
+    .clear_fix{
+     display: block;
+     clear: none;
+    }
+
+}

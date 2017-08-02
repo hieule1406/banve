@@ -1,0 +1,17 @@
+.clear_fix{
+    clear: both;
+    display: block;
+}
+.clear_fix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear_fix_none{
+    clear: none;
+    display: block;
+}

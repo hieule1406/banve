@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+	body {
+		background: #eee;
+	}
+	.main {
+		width: 1200px;
+		height: auto;
+		margin: auto;
+		background: #fff;
+		padding: 10px;
+	}
+	.inner{
+		width: 96%;
+		height: auto;
+		margin: 1% 2%;
+	}
+	ul {
+		display: flex;
+		list-style: none;
+	}
+	li {
+		margin: 3px;
+		position: relative;
+	}
+	span {
+		display: block;
+		padding: 6px;
+		border: 1px solid #ddd;
+		color: #934d49;
+		text-decoration: line-through;
+	}
+	button {
+		margin: 15px 0 0 10%;
+		cursor: pointer;
+		/*padding: 7px;*/
+		width: 50px;
+		height: 50px;
+		transition: all .5s;
+		border: 1px solid #ddd;
+		font-weight: bold;
+	}
+	button:hover {
+		color: #fff;
+		background: blue;
+		transition: all .5s;
+	}
+
+	.sub {
+		color: white;
+		position: absolute;
+		top: 120%;
+		left: 0;
+		width: 200px;
+		height: 200px;
+		background: #333333;
+		border: 1px solid #dddddd;
+		padding: 10px;
+		display: none;
+		z-index: 100;
+	}
+	.hide {
+		margin: 15px 0 0 10%;
+		padding: 6px;
+		border: 1px solid #ddd;
+		width: 58px;
+		cursor: pointer;
+		transition: all .5s;
+		background: #eee;
+		color: #959580;
+	}
+	.hide:hover {
+		background: blue;
+		color: #fff;
+		transition: all .5s;
+	}
+	.gia_ve{
+		color: #e28a10;
+		text-align: justify;
+	}
+
+	.man_hinh img{
+		box-shadow: #a824d7 2px 1px 5px;
+		width: 600px;
+		margin: 0 20% 3% 20%;
+		/*border: solid #c21967 1px;*/
+	}
+	/*.btn_chair button{*/
+		/*width: 50px;*/
+		/*height: 50px;*/
+	/*}*/
+
+	/*.show{*/
+		/*width: 20px;*/
+		/*height: 20px;*/
+	/*}*/
+
+
+	td {
+		padding: 10px;
+	}
+	input {
+		padding: 10px;
+	}
+	h1 {
+		padding: 10px;
+	}
+	.color_red {
+		color: red;
+		padding: 10px;
+	}
+	.da_mua span{
+		margin-top: 15px;
+}

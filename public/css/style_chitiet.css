@@ -1,0 +1,232 @@
+    *{
+        list-style: none;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /*anh su kien*/
+    .img_banner .img_poster{
+        width:600px;
+        margin: 1% ;
+    }
+
+
+    /*tieude*/
+
+    .title{
+        font-weight: bold;
+        font-size: 18px;
+        width: 590px;
+        margin-left: 10px;
+        margin-bottom: 1%;
+        /*border: solid 1px red;*/
+
+
+    }
+    /*the i -icon*/
+    i{
+    padding: 1% 2% 1% 0  ;
+
+    }
+    /*----*/
+
+    h2{
+        margin: 2% 0;
+    }
+
+    /*ìnfor*/
+    p span{
+        margin: 1% 0;
+        font-size: 16px;
+
+    }
+
+    /*img trong infor*/
+    p span strong img{
+
+        /*width: 57px;*/
+        /*height: 65px;*/
+
+    }
+    .content_infor{
+        border-top: solid 1px #bdbdbd;
+        margin: 5px 0;
+    }
+    /*noi dung infor*/
+    .info{
+        margin: 4% 1% 2% 2%;
+        width: 90%;
+        height: auto;
+        padding-top: 10px;
+        border-top: solid 1px #d9d9d9;
+    }
+    /*chon ghe*/
+    .chon_ghe a{
+        background: #005dac;
+        padding: 2% 4%;
+        color: #cfcfcf;
+        font-weight: bold;
+    }
+    .chon_ghe a:hover{
+        background: #008ff3;
+        color: #ffffff;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+    }
+        /*nut chon ghe*/
+    .chon_ghe {
+        padding: 2% 6%;
+    }
+
+     /*anh top chi tiet */
+    .image_post{
+        width: 100%;
+        height: auto;
+    }
+    .txt_infor{
+        margin: 0 6%;
+    }
+
+    .infor{
+        margin: 0 1%;
+    }
+
+    /*ghet width 1336px*/
+
+    @media screen and (max-width:1366px ){
+        .title{
+            font-weight: bold;
+            font-size: 21px;
+            width: 860px;
+            margin-bottom: 1%;
+            /*border: solid 1px red;*/
+        }
+
+        p strong{
+            margin: 1% 0;
+            font-size: 16px;
+
+        }
+        .inner_main{
+            width: 100%;
+            height:auto;
+            margin: 1% 1%;
+            /*border-right: solid 1px #d8d8d8;*/
+        }
+        .content_left{
+            width: 68%;
+            height: auto;
+        }
+        .wap_content_right {
+            float: right;
+
+            width: 30%;
+            height: auto;
+            margin: 1% 1%;
+        }
+        .txt_infor{
+            margin: 0 2%;
+        }
+        .text_info{
+            font-size: 18px;
+
+        }
+        .text_boder {
+            padding-bottom: 2%;
+            padding-top: 2%;
+        }
+
+        p span{
+            margin: 1% 0;
+            font-size: 20px;
+
+        }
+
+        /*anh su kien*/
+        .img_banner .img_poster{
+            width:845px;
+            margin: 1% 2% ;
+
+        }
+
+
+
+    }
+
+
+    /*get max- width :1024px*/
+    @media screen and (max-width:1024px ){
+        .title{
+            font-weight: bold;
+            font-size: 15px;
+            width: 860px;
+
+            margin-left: 10px;
+            margin-bottom: 1%;
+            /*border: solid 1px red;*/
+        }
+        .wap_content_right{
+            visibility: hidden;
+            position: fixed;
+
+        }
+
+
+        .infor{
+            margin: 0 1%;
+        }
+        .text_info{
+            font-size: 15px;
+
+        }
+        .txt_infor{
+            margin: 1% 1%;
+        }
+        p span{
+            margin: 1% 0;
+            font-size: 16px;
+
+        }
+
+        .content_left{
+            width: 100%;
+            height: auto;
+        }
+        .inner_main{
+            width: 90%;
+            height: auto;
+            margin: 2% 5%;
+
+        }
+
+        /*anh su kien*/
+
+        .img_banner .img_poster {
+            width: 860px;
+            margin: 1% 1%;
+        }
+
+
+
+    }
+    /*get max- width :768px*/
+    @media screen and (max-width:768px ){
+        .title{
+            font-weight: bold;
+            font-size: 15px;
+            width: 450px;
+
+            margin-left: 10px;
+            margin-bottom: 1%;
+            /*border: solid 1px red;*/
+
+
+        }
+        /*anh su kien*/
+        .img_banner .img_poster{
+            width:455px;
+            margin: 1% ;
+        }
+    }
